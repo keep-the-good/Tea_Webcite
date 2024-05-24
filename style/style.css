@@ -753,6 +753,30 @@ button {
     }    
 }
 
+@media (max-width: 630px) {
+    .blog-title {
+        margin-top: 60px;
+    }
+
+    .blog-post-wrapper {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 460px;
+    }  
+
+    .blog-post-wrapper ul:nth-child(even) {
+        margin: 0;                       
+    }
+
+    .blog-post-wrapper ul:nth-child(odd) {
+        margin: 0;                
+    }
+
+    .email {
+        margin-top: 60px;
+    }
+}
+
 @media (min-width: 480px) and (max-width: 767px) {    
     .header {        
         margin: 10px auto;        
