@@ -342,7 +342,7 @@ button {
     font-weight: 500;
     max-width: 252px;
     min-height: 92px;  
-    margin-bottom: 10px;                
+    margin-bottom: 10px;                   
 }
 
 .blog-post-autor {    
@@ -623,6 +623,37 @@ button {
     .coments-block:nth-child(4) {
         display: none;
     }  
+}
+
+@media (max-width: 979px) {
+    .blog {
+        padding: 0;
+        
+    }
+}
+
+@media (max-width: 939px) {
+    .blog-post-wrapper {        
+        flex-direction: column;        
+    }
+
+    .blog-post {
+        max-width: 542px;
+    }
+
+    .blog-post-wrapper {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .blog-post-wrapper ul:nth-child(even) {
+        margin-right: 64px;
+        margin-left: auto;                        
+    }
+
+    .blog-post-wrapper ul:nth-child(odd) {
+        margin-left: 64px;                
+    }
 }
 
 @media (max-width: 808px) {
