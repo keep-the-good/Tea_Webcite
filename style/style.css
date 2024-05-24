@@ -377,7 +377,7 @@ button {
     border: 1px black solid;
 }
 
-/* ----- PATH 5 ----- */
+/* ----- PATH 6 ----- */
 
 .email {
     display: flex;
@@ -497,7 +497,7 @@ button {
     font-weight: 300;    
 }
 
-/* ----- PATH 6 ----- */
+/* ----- PATH 7 ----- */
 
 .service {
     display: flex;
@@ -557,6 +557,33 @@ button {
     .products-wrapper {   
         flex-wrap: nowrap;     
     }
+
+    .blog {
+        padding: 0 20px;
+    }
+
+    .blog-title {
+        margin-top: 120px;
+    }
+
+    .blog-post-wrapper {
+        gap: 67px 20px; 
+        justify-content: space-between;                
+    }
+
+    .blog-post {        
+        max-width: 460px;
+        max-height: 153px;
+    }
+
+    .blog-post img {        
+        max-width: 230px;
+        height: 100%;
+    } 
+    
+    .email {
+        margin-top: 120px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -595,7 +622,7 @@ button {
     
     .coments-block:nth-child(4) {
         display: none;
-    }    
+    }  
 }
 
 @media (max-width: 808px) {
