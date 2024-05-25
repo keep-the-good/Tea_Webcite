@@ -429,8 +429,8 @@ button {
 }
 
 .email-input {    
-    width: 439px;
-    height: 35px;
+    width: 439px;    
+    line-height: 150%;
     padding-left: 15px;    
     font-size: 20px;
     font-weight: 300;
@@ -442,7 +442,7 @@ button {
 
 .email-input::placeholder {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 300;    
     color: #B8B58B;
     padding-top: 50px;   
 }
@@ -760,6 +760,11 @@ button {
 
     .coments-block:nth-child(4) {
         display: block;
+    }     
+    
+    .email-description {
+        max-width: 640px;
+        min-height: 120px;
     }    
 }
 
@@ -787,9 +792,33 @@ button {
         min-height: 57px;
     }
 
+    
+
     .email {
         margin-top: 60px;
+        padding: 50px 0;
+        background-image: none;
+    }    
+
+    .email-description {        
+        max-width: 460px;
+        min-height: 72px;
     }
+
+    .email-description-text {    
+        font-size: 13px;
+        font-weight: 300;
+        line-height: normal;    
+    }
+
+    .email-description-title {        
+        margin-bottom: 30px;
+    }
+
+    .email-form {       
+        max-width: 460px;  
+        margin-top: 30px;       
+    }    
 }
 
 @media (min-width: 480px) and (max-width: 767px) {    
@@ -855,6 +884,12 @@ button {
     }
 }
 
+@media (max-width: 460px) {
+    .email-form {
+        max-width: 340px;
+    }
+}
+
 @media (max-width: 409px) {
     .blog-title {
         font-size: 24px;
@@ -862,13 +897,10 @@ button {
         margin-bottom: 30px;
     }
 
-    .blog-post-wrapper ul:nth-child(3) {
+    .blog-post-wrapper ul:nth-child(3),
+    .blog-post-wrapper ul:nth-child(4) {
         display: none;
-    }
-    
-    .blog-post-wrapper ul:nth-child(4) { 
-        display: none;
-    }
+    }    
 
     .blog-post-wrapper {        
         max-width: 270px;        
@@ -1008,5 +1040,13 @@ button {
     .coments-block:nth-child(2),
     .coments-block:nth-child(3) {
         display: none;
+    }
+
+    .email-description {
+        max-width: 340px;        
+    }
+
+    .email-input {
+        width: 203px;        
     }
 }
