@@ -1077,4 +1077,24 @@ button {
     .email-input {
         width: 203px;        
     }
+
+    .service-title {
+        font-size: 24px;
+    }
+
+    .service-block {        
+        gap: 40px 0;
+    }    
+
+    .service-block-title {
+        font-size: 20px;
+    }
+
+    .service-block-text {
+        font-size: 10px;
+    }
+
+    .srvice-block-wrapper img {
+        margin: 0 auto;
+    }
 }
