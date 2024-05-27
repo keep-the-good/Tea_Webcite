@@ -522,12 +522,12 @@ button {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;    
-    gap: 0 50px;    
+    /* gap: 0 50px;     */
 }
 
 .srvice-block-wrapper {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;     
     gap: 10px 0;   
 }
 
@@ -545,7 +545,7 @@ button {
 
 .srvice-block-wrapper img {
     width: 60px;
-    height: 60px;
+    height: 60px;    
     margin: 30px auto 0 auto;
 }
 
@@ -632,6 +632,20 @@ button {
     .email-form {
         align-self: center;
         margin-top: 60px;
+    }
+
+    .service-block {
+        flex-wrap: wrap;
+        gap: 30px 210px;
+    }
+
+    .srvice-block-wrapper {
+        min-width: 294px;        
+    }     
+
+    .srvice-block-wrapper:nth-child(4) > h1 {
+        text-shadow: none;
+        font-weight: 300;
     }
 }
 
