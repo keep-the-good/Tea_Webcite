@@ -505,8 +505,7 @@ button {
 .service {
     display: flex;
     flex-direction: column;
-    align-items: center;    
-    margin: 150px 0;        
+    align-items: center;     
 }
 
 .service-title {
@@ -620,7 +619,8 @@ button {
     
     .email {
         flex-direction: column;        
-        margin-top: 120px;                 
+        margin-top: 120px; 
+        margin-bottom: 120px;                
     }
 
     .email-description {
@@ -683,6 +683,10 @@ button {
 @media (max-width: 808px) {
     .menu {        
         margin-left: 25px;             
+    }
+
+    .service-block {        
+        gap: 30px 130px;
     }
 }
 
@@ -804,9 +808,7 @@ button {
 
     .blog-post-title {
         min-height: 57px;
-    }
-
-    
+    }    
 
     .email {
         margin-top: 60px;
@@ -895,6 +897,18 @@ button {
 
     .coments-title {        
         margin: 50px 0;    
+    }
+
+    .email {         
+        margin-bottom: 60px;                
+    }
+
+    .service-title {        
+        margin-bottom: 30px;
+    }
+
+    .service-block {        
+        gap: 50px 0;
     }
 }
 
