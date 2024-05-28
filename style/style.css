@@ -553,6 +553,84 @@ button {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* ----- PATH 8 ----- */
+
+.footer {
+
+}
+
+.footer-list-wrapper {
+
+}
+
+.footer-list-products {
+
+}
+
+.footer-products-title {
+
+}
+
+.footer-list-company {
+
+}
+
+.footer-company-title {
+
+}
+
+.footer-list-blockquote {
+
+}
+
+.footer-blockquote {
+
+}
+
+.footer-blockquote-autor {
+
+}
+
+.footer-list-contacts {
+
+}
+
+.footer-contacts-title {
+
+}
+
+.footer-contacts-text {
+
+}
+
+.footer-img-block-one {
+
+}
+
+.footer-ref-phone {
+
+}
+
+.footer-ref-email {
+
+}
+
+.footer-img-block-two {
+
+}
+
+.footer-pay-wrapper {
+
+}
+
+.footer-shop {
+
+}
+
+.footer-img-block-three {
+
+}
+
 /* ----- ADAPTIVE ----- */
 
 @media (max-width: 1159px) {
@@ -583,15 +661,14 @@ button {
     .header-wrapper {      
         max-width: 960px;    
         min-height: 105px;                     
-    }    
-
+    }
     .user-actions li:nth-child(3) {    
         margin-left: 30px;            
     } 
     
     .menu {
         margin-right: auto;
-    } 
+    }
 
     .logo {         
         margin-bottom: 0;       
