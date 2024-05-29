@@ -586,12 +586,12 @@ button {
     flex-direction: column;    
 }
 
-.footer-list-products a:not(:last-child) {
-    margin-bottom: 20px;
-}
-
 .footer-products-title {
     margin-bottom: 50px;
+}
+
+.footer-list-products a:not(:last-child) {
+    margin-bottom: 20px;
 }
 
 .footer-list-company {
@@ -600,12 +600,12 @@ button {
     margin-left: 213px;    
 }
 
-.footer-list-company a:not(:last-child) {
-    margin-bottom: 20px;
-}
-
 .footer-company-title {
     margin-bottom: 50px;
+}
+
+.footer-list-company a:not(:last-child) {
+    margin-bottom: 20px;
 }
 
 .footer-list-blockquote {
@@ -702,14 +702,6 @@ button {
     margin-left: calc(200/1600 * 100vw);        
 }
 
-.footer-shop {
-
-}
-
-.footer-img-block-three {       
-    
-}
-
 .footer-img-block-three img {
     display: inline-block;
     vertical-align: middle;    
@@ -750,6 +742,7 @@ button {
         max-width: 960px;    
         min-height: 105px;                     
     }
+
     .user-actions li:nth-child(3) {    
         margin-left: 30px;            
     } 
@@ -776,8 +769,7 @@ button {
 
     .coments {        
         padding: 0 calc(54px/1000px * 100vw);          
-    }    
-    
+    }     
     .coments-block:nth-child(4) {
         display: none;
     } 
@@ -792,7 +784,7 @@ button {
         max-width: 780px;
         min-height: 90px;
         text-align: center;
-    }   
+    }
 
     .email-form {
         align-self: center;
@@ -806,18 +798,43 @@ button {
 
     .srvice-block-wrapper {
         min-width: 294px;        
-    }     
+    }
 
     .srvice-block-wrapper:nth-child(4) > h1 {
         text-shadow: none;
         font-weight: 300;
+    }    
+
+    .footer {
+        padding: 100px 20px 10px 20px;
+    }
+
+    .footer-list-company {
+        margin-left: 60px;
+        min-width: 155px; 
+    }
+
+    .footer-list-blockquote {
+        margin-left: 55px;
+    }
+
+    .footer-list-contacts {
+        margin-left: 55px;
+    }
+
+    .footer-img-block-one {
+        margin-bottom: 52px;
+    }
+
+    .footer-pay-wrapper {
+        gap: 0 40px;        
+        margin: 55px 0 0 0;        
     }
 }
 
 @media (max-width: 979px) {
     .blog {
-        padding: 0;
-        
+        padding: 0;        
     }
 }
 
