@@ -625,7 +625,7 @@ button {
     font-size: 12px;    
 }
 
-.footer-list-contacts {
+.footer-list-contacts {    
     font-size: 13px;
     font-weight: 300px;
     max-width: 270px;
@@ -633,7 +633,7 @@ button {
 }
 
 .footer-contacts-title {
-    margin-bottom: 50px;
+    margin-bottom: 50px;    
 }
 
 .footer-contacts-text {
@@ -965,6 +965,44 @@ button {
     .email-description {
         max-width: 640px;
         min-height: 120px;
+    }
+    
+    .footer {
+        margin-top: 120px;
+        padding: 50px 64px 10px 64px;        
+    }
+
+    .footer-list-wrapper {        
+        /* flex-wrap: wrap; */
+        /* justify-content: flex-end; */
+        display: grid;
+    }
+
+    .footer-list-products { 
+        
+    }
+
+    .footer-list-company {          
+        /* margin-left: 52px; */
+        margin: 0;
+    }
+
+    .footer-list-blockquote {
+        /* margin-top: 0; */
+        /* margin-left: 67px; */ 
+        margin: 0;       
+    }
+
+    .footer-list-contacts {       
+        margin: 0;
+    }
+
+    .footer-img-block-one {
+        margin-bottom: 30px;
+    }
+
+    .footer-pay-wrapper {
+        margin-top: 70px;
     }    
 }
 
