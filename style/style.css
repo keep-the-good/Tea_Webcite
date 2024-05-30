@@ -972,29 +972,31 @@ button {
         padding: 50px 64px 10px 64px;        
     }
 
-    .footer-list-wrapper {        
-        /* flex-wrap: wrap; */
-        /* justify-content: flex-end; */
+    .footer-list-wrapper {         
         display: grid;
+        grid-template: 1fr / 97px 155px 269px;
+        justify-content: space-between;
     }
 
     .footer-list-products { 
-        
+        grid-row: span 2;
     }
 
-    .footer-list-company {          
-        /* margin-left: 52px; */
+    .footer-list-company {       
+        grid-row: span 2;
         margin: 0;
     }
 
-    .footer-list-blockquote {
-        /* margin-top: 0; */
-        /* margin-left: 67px; */ 
+    .footer-list-blockquote {       
         margin: 0;       
     }
 
+    .footer-blockquote-autor {
+        max-width: 129px;    
+    }
+
     .footer-list-contacts {       
-        margin: 0;
+        margin: 50px 0 0 0;
     }
 
     .footer-img-block-one {
