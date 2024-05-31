@@ -1231,6 +1231,38 @@ button {
     .email-form {
         max-width: 340px;
     }
+
+    .footer {
+        margin-top: 50px;
+    }
+
+    .footer-list-wrapper {
+        grid-template-rows: 1fr 40px 114px 40px 238px;
+        grid-template-columns: 100px 73px 155px 1fr;        
+    }
+
+    .footer-list-contacts {       
+        grid-template-rows: 29px 10px 36px 10px 91px 40px 22px;
+        grid-template-columns: 1fr;                             
+    }
+
+    .footer-img-block-one {        
+        margin: 0;
+        padding-right: 23px;
+    }
+
+    .footer-img-block-two {
+        grid-row: 7;
+        margin: 0 auto;
+    }
+
+    .footer-contacts-title {
+        max-width: 350px;
+    }
+
+    .footer-pay-wrapper {
+        padding: 0;
+    }
 }
 
 @media (max-width: 409px) {
